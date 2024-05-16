@@ -163,7 +163,7 @@ body{
 /* hover styling for next/prev buttons */
 .prev:hover, .next:hover {
     background-color: rgba(4,10,110,0.3);
-    color rgb(4,10,110);
+    color: rgb(4,10,110);
 }
 
 .slide > img{
