@@ -1,14 +1,14 @@
 /***** NAVBAR *****/
 
 .navbar {
-    background-color: #6D7977;
+    background-color: #add1bb;
     border-radius: 0;
 }
 
 /* Navbar title */
 .navbar-default .navbar-brand {
     color: white;
-    font:"Bitter";
+    font-family:"Bitter";
     font-size: px;
     font-weight: bold;
 }
@@ -18,13 +18,14 @@
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #add1bb;
+    color: #6D7977;
     text-decoration: none;
 }
 
 /* Navbar links */
 .navbar-default .navbar-nav > li > a {
     color: #fff;
+    font: "Bitter";
     font-size: 16px;
     padding: 10px;
 }
@@ -56,19 +57,19 @@
 .jumbotron {
    /* background-image: url("../assets/trees1.jpg"); OLD TREE PHOTO*/ 
     text-align: center;
-    color: #add1bb;
-    background-color: #add1bb75;
+    color: white;
+    background-color: #6D7977;
     padding: 3%;
     border-radius: 2px;
-    text-shadow: 2px 2px 5px #616161,-1.25px 0 #616161, 0 1.25px #616161, 1.25px 0 #616161, 0 -1.25px #616161, -2px -2px 5px #616161;
+    /*text-shadow: 2px 2px 5px #616161,-1.25px 0 #616161, 0 1.25px #616161, 1.25px 0 #616161, 0 -1.25px #616161, -2px -2px 5px #616161;*/
 }
 
 .jumbotron h2 {
     font-family: "Bitter";
     font-size: 36px;
     font-weight: bolder;
-    color: #add1bb;
-    text-shadow: 2px 2px 5px #616161,-1.25px 0 #616161, 0 1.25px #616161, 1.25px 0 #616161, 0 -1.25px #616161, -2px -2px 5px #616161;
+    color: white;
+    /*text-shadow: 2px 2px 5px #616161,-1.25px 0 #616161, 0 1.25px #616161, 1.25px 0 #616161, 0 -1.25px #616161, -2px -2px 5px #616161;*/
     
 }
 
